@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 600px;
+    height: 100vh;
+    background-color: #445469;
+    margin: 50px;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    gap: 20px;
+}
+
+.caja {
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    text-align: center;
+}
+
+.caja:nth-child(odd) {
+    background-color: blueviolet;
+}
+
+#caja-2 {
+    color: wheat;
+}
